@@ -36,7 +36,7 @@ while(cap.isOpened()):
     final_output = cv2.addWeighted(res1 , 1, res2 , 1, 0)
     final_output=cv2.flip(final_output,2)
     cv2.imshow('Sid_Yo_Potter' , final_output)
-    k=cv2.waitKey(10)
+    k=cv2.waitKey(100)
     if k==27:
       break
 
